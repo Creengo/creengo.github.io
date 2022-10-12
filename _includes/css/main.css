@@ -84,6 +84,20 @@ hr.star-primary:after {
     max-width: 50%;
 }
 
+.img-logo-icon {
+    max-width: 25%;
+}
+
+@media(min-width:768px) {
+    .img-logo {
+        max-width: 30%;
+    }
+
+    .img-logo-icon {
+        max-width: 50%;
+    }
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -124,8 +138,8 @@ header .intro-text .header-line1 {
 
 header .intro-text .header-line2 {
     text-transform: uppercase;
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 5em;
+    font-weight: 500;
     line-height: 0.5;
     color: black;
 }
@@ -149,7 +163,7 @@ header .intro-text .header-line2 {
     }
 
     header .intro-text .header-line2 {
-        font-size: 5em;
+        font-size: 8em;
     }
 }
 
