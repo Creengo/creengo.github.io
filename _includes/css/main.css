@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -49,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f3ce";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -80,6 +80,10 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-logo {
+    max-width: 50%;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -99,7 +103,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -107,6 +111,23 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+header .intro-text .header-line1 {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    color: black;
+}
+
+header .intro-text .header-line2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 0.5;
+    color: black;
 }
 
 @media(min-width:768px) {
@@ -121,6 +142,14 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+
+    header .intro-text .header-line1 {
+        font-size: 6em;
+    }
+
+    header .intro-text .header-line2 {
+        font-size: 5em;
     }
 }
 
@@ -150,7 +179,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 

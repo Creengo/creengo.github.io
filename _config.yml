@@ -1,13 +1,15 @@
 # Site settings
-title: Creengo
+title: Digital Solutions | Creengo
 email: contact@creengo.com
 url: https://www.creengo.com
-description: "Creengo is a digital agency where clients can find digital solutions for their business"
-skills: "iOS Developer - Android Developer - Web Developer - Graphic Design - User Experience Designer"
+description: "Creengo is a digital agency where clients can find digital solutions for their businesses."
+skills: ""
 meta_author: Creengo
+header_title1: Connecting
+header_title2: Ideas
 
 # Google webmaster tools
-google_verify:
+google_verify: -z2afGwKwGyjAFuBqtPcR6hTze0yO2pyhrXqkDRHSx8
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -24,10 +26,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: b4d7b2 #80B3FF
+  primary-rgb: "180, 215, 178" #"128,179,255"
+  secondary: 25282a #FD6E8A
+  secondary-dark: 25282a #A2122F
 
 # Footer settings
 footer:
@@ -39,16 +41,16 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/creengo
+    url: https://twitter.com/creengo
   - title: facebook
-    url:
+    url: https://facebook.com/creengo
   - title: github
-    url: http://github.com/creengo
+    url: https://github.com/creengo
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Europe
   - line: Spain
+  - line: Europe
 
 # Credits content
 credits: 'Creengo'
